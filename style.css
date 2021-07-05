@@ -68,11 +68,6 @@ div > img{
     color: #4F4F4F;
 }
 
-.country,
-.pcode{
-    display: inline-block;
-}
-
 .input-box{
     margin: 10px 0px;
     font-size: 16px;
@@ -89,9 +84,8 @@ div > img{
     color: #4F4F4F;
     margin-top: 2em;
 }
+
 .fas{
-    /* position: absolute; */
-    opacity: 0.7;
     margin-left: 5px;
 }
 #phone,
@@ -99,10 +93,14 @@ div > img{
 #name,
 #address,
 #city,
-#pcode
+#pcode,
+#dropdown
 {
-  border: none;
-  padding: 8px 35px 8px 5px;
+    border: none;
+    padding: 8px 35px 8px 5px;
+    outline: none;
+    font-family: Montserrat, sans-serif;
+    color: #4F4F4F;
   
 }
 .first-div--left{
@@ -133,5 +131,23 @@ div > img{
 }
 .inline-div{
     display: flex;
-    justify-content: space-around;
+    justify-content:space-around
+    align-items: center;
+}
+#form-button{
+    border-radius: 10px;
+    background-color: #f2994a;
+    color: #fff;
+    text-align: center;
+    width: 7%;
+    padding: 14px 0;
+    border: none;
+    cursor: pointer;
+    
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    margin-top: 5em;
 }

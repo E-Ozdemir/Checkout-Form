@@ -23,7 +23,7 @@
         <!-- left side -->
 
         <div class="left">
-          <form action="#" method="GET" target="_blank">
+          <form action="result.html" method="GET" target="_blank">
             <div class="first-div--left">
               <h3 class="left-div--header">Contact Information</h3>
               <div>
@@ -98,15 +98,18 @@
 
               <div class="last-div--left">
                 <div class="inline-div">
-                  <div class="country">
+                  <div>
                     <label class="label">Country</label>
-                    <select name="content" id="dropdown">
-                      <option value="usa">USA</option>
-                      <option value="turkey" selected>Turkey</option>
-                      <option value="de">Deutschland</option>
-                      <option value="uk">UK</option>
-                      <option value="canada">Canada</option>
-                    </select>
+                    <div class="input-box country">
+                      <i class="fas fa-globe-europe"></i>
+                      <select name="content" id="dropdown">
+                        <option value="usa">USA</option>
+                        <option value="turkey" selected>Turkey</option>
+                        <option value="de">Deutschland</option>
+                        <option value="uk">UK</option>
+                        <option value="canada">Canada</option>
+                      </select>
+                    </div>
                   </div>
 
                   <div>
@@ -190,7 +193,9 @@
           </div>
         </div>
       </div>
-      <footer></footer>
+      <div class="button">
+        <button type="submit" id="form-button">Continue</button>
+      </div>
     </div>
   </body>
 </html>
