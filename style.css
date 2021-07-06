@@ -34,6 +34,9 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+   width: fit-content;
+   width: 15vh;
+   padding: 5px 0;
    
     
 }
@@ -150,4 +153,7 @@ div > img{
     display: flex;
     justify-content: center;
     margin-top: 5em;
+}
+.country{
+    margin-right: 10px ;
 }
